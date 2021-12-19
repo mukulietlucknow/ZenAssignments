@@ -1,0 +1,28 @@
+{
+    "personalInfo": {
+        "name" : "Mukul Kumar Varsheny",
+        "post" : "software developer",
+        "DOB" : "May 6 1993"
+    },
+    "info" : "Skilled software development professional bringing more than 4.5 years in software design, development and integration. Offering software testing using automation and developing products/app to make this process an ease and handy. Maintains highest possible level of scrutiny for all tested products. coming with newer project Ideas that could save tester's time while assuring quality for the product.",
+    "workHistory" : {
+        "0" : {
+            "from" : "2015",
+            "to" : "2021",
+            "description" : "Project: Developed Internal Web Project for monitoring end to end Pre-Released DAT Automation via Python on Django",
+            "company" : "Mcafee"
+
+        },
+
+        "1": {
+            "from" : "2015",
+            "to" : "2021",
+            "description" : "Developed Internal Web Project OCRCV (One Click Reference config Validation) as Backend Developer via Python on Django",
+            "company" : "Mcafee"
+        }
+    },
+    "education" : {
+        "+2" : "2009 - 2010",
+        "B-tech" : "2011-2015"
+    }
+}
