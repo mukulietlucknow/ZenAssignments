@@ -126,6 +126,64 @@ console.log(
   )
 
 
+// Q 8
+
+// this question is same as before so skipping it
+
+
+// Q 9
+
+console.log(2**3)
+
+// Q 10
+
+var principle = 1000
+var rate_of_interest = 14
+var time = 1
+
+console.log((principle*rate_of_interest*time) / 100)
+
+// Q 11
+
+var side = 2 // metere
+//area
+console.log(((3**(1/2))/4)*side**2)
+
+// Q 12
+
+var width = 10
+var height = 15
+
+area = 1/2 * width * height
+console.log(area)
+
+// Q 13 
+
+var radious = 3
+var volume = 4/3 * Math.PI * (radious ** 3)
+console.log(volume)
+
+// Q 14
+
+var tringluler_prism_height = 10
+var b = 10
+var height = 10
+var area_of_the_tringle = 1/ * b * height
+console.log(area_of_the_tringle*tringluler_prism_height)
+
+// Q 15
+
+// this is same as Q 11 / 12
+
+
+// Q 16
+
+
+
+
+
+
+
 
 
 
