@@ -29,7 +29,7 @@ req.send();
 req.onload = function(){
     var response = JSON.parse(req.response)
     for ( let i in response){
-        console.log(response[i].flags['png'])
+        // console.log(response[i].flags['png'])
     }
 }
 
@@ -43,7 +43,7 @@ req2.send();
 req2.onload = function(){
     var response = JSON.parse(req.response)
     for ( let i in response){
-        console.log(response[i].name, " ",response[i].region," ", response[i].subregion," ", response[i].population  )
+        // console.log(response[i].name, " ",response[i].region," ", response[i].subregion," ", response[i].population  )
     }
 }
 
@@ -85,7 +85,7 @@ console.log(Number(num), +num, parseInt(num));
 
 // Q 7
 
-console.log(1==1, 2>1, 1<2, tru, false, 1)
+console.log(1==1, 2>1, 1<2, true, false, 1)
 
 // Task 2: Simple Programs todo for Operators
 
@@ -99,6 +99,32 @@ let a = 5, b = 6;
 [a, b] = [b, a];
 
 // Q 3
+
+console.log(1+2+3)
+
+// Q 4
+
+var cel = 30
+console.log(cel*1.8 + 32)
+
+// Q 5
+
+var meter = 1000
+console.log((meter/1000)*(.62));
+
+// Q 6
+
+var pound = 100
+console.log(pound*.45)
+
+// Q 7 
+
+// here i am considering slice of runs then will print the average of the runs
+var runs = [10,23,34,45,56,45,23]
+console.log(
+    (runs.reduce((a, b) => a + b, 0) / runs.length)
+  )
+
 
 
 
