@@ -166,9 +166,9 @@ console.log(volume)
 // Q 14
 
 var tringluler_prism_height = 10
-var b = 10
+var bi = 10
 var height = 10
-var area_of_the_tringle = 1/ * b * height
+var area_of_the_tringle = 1/2 * bi * height
 console.log(area_of_the_tringle*tringluler_prism_height)
 
 // Q 15
@@ -177,6 +177,40 @@ console.log(area_of_the_tringle*tringluler_prism_height)
 
 
 // Q 16
+
+var actual_cost = 100
+var sold_cost = 90
+var discount = - (sold_cost - actual_cost) / actual_cost * 100
+console.log(discount)
+
+// Q 17
+
+var radious = 10
+var diameter = radious * 2
+var area = Math.PI * radious ** 2
+var curcumpherence = 2 * Math.PI * radious
+
+
+// Q 18
+
+console.log(1==1, 1>1, 1<1 , 1 != 1)
+
+// Q 19
+
+console.log("*****\n*****\n*****\n*****\n*****\n");
+
+
+//Q 20
+
+console.log(100*24*30*10)
+
+
+// Q 21
+
+var marks = [100, 90,80,70,50]
+
+console.log(marks.reduce((a, b) => a + b, 0) / marks.length)
+
 
 
 
