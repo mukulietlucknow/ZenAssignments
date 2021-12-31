@@ -211,7 +211,133 @@ var marks = [100, 90,80,70,50]
 
 console.log(marks.reduce((a, b) => a + b, 0) / marks.length)
 
-// hello
+// Task 3
+
+// Q 1
+
+for (let i = 1; i < 7 ; i++ ){
+    string = ""
+    for (let j = 1 ; j <= i ; j++){
+        string += "#"
+    }
+    console.log(string);
+}
+
+// Q 2
+
+string_arr = ["mukul", "kumat", "varsheny"]
+for (const i of string_arr){
+    console.log(i);
+}
+
+// Q 3
+
+var myarray=[11,22,33,44,55]
+
+var length = 0
+for (let i in myarray){
+    length += 1
+}
+
+console.log(length);
+
+
+// Q 4
+
+// to get the nth element of the array we can use arrray[nth - 1] element
+
+// Q 5
+
+// Find the person is ur friend or not.
+const friends = [
+                "Mari",
+                "MaryJane",
+                "CaptianAmerica",
+                "Munnabai",
+                "Jeff",
+                "AAK chandran"
+                ];
+function dataHandling(input, name){
+    for (var i = 0; i < input.length; i++) {
+        if (friends[i] == name){
+            console.log("he is my friend");
+            break
+        }
+    }
+}
+let found = dataHandling(friends,"Jeff");
+console.log(found);
+
+
+// Q 6
+
+// We have two lists of friends below. Use array methods to combine them into one alphabetically-sorted list.
+var friends1 = [
+"Mari",
+"MaryJane",
+"CaptianAmerica",
+"Munnabai",
+"Jeff",
+"AAK chandran"
+];
+var friends2 = [
+"Gabbar",
+"Rajinikanth",
+"Mass",
+"Spiderman",
+"Jeff",
+"ET"
+];
+function sort_the_arrays(input){
+    console.log(input.sort());
+}
+sort_the_arrays(friends1.concat(friends2));
+
+
+// Q 7
+//6. Find the avg length of all the friends names. Get the individual length of the names and do the avg.
+sum = 0
+for ( let i of friends1.concat(friends2)){
+    sum += i.length;
+}
+
+var average_length = sum / friends1.concat(friends2).length
+console.log(Math.round(average_length));
+
+
+// 8
+// Find the average in the array below. Make sure you add only the numbers and do avg.
+const friendsInfo = [6, 12, 'Mari', 1, true, 'CaptianAmerica', 8, 10];
+var count = 0
+var sum = 0
+
+for (let i of friendsInfo){
+    if (!isNaN(i)){
+        count += 1
+        sum += i
+    }
+}
+
+console.log(sum / count);
+
+// 9
+myobject = {1:"one","11":1,"name":"arun"};
+myobject["another"] = "element";
+console.log(myobject);  // added the element in the object
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
