@@ -211,6 +211,8 @@ var marks = [100, 90,80,70,50]
 
 console.log(marks.reduce((a, b) => a + b, 0) / marks.length)
 
+// hello
+
 
 
 
