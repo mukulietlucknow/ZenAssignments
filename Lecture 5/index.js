@@ -63,5 +63,65 @@ var printPrime = arr => {
 
 printPrime([1,2,3,4,5,6,7,8,9])
 
-// 
+// e. Return all the palindromes in an array
+
+var isPalindrome = str => {
+     if (str == str.split("").reverse().join('') ){
+         return true
+     } else {
+         return false
+     }
+}
+
+var checkArr = ["mukul", "mum"]
+
+checkArr.map(element => {
+    if (isPalindrome(element)) {
+        console.log(element)
+    }
+})
+
+// Return median of two sorted arrays of same size
+var arr1 = [1,2,3,4,5]
+var arr2 = [6,7,8,9,10]
+
+var median = (arr1, arr2) => {
+    var final_arr = arr1 + arr2
+    if ( final_arr.length == 0){
+        return
+    }
+    if (final_arr.length % 2 == 0 ){
+        var index1 = final_arr / 2
+        var index2 = index1 - 1
+        return ((final_arr[index1] + final_arr[index2]) / 2)
+    } else {
+        return final_arr[Math.floor(final_arr / 2)]
+    }
+}
+
+// Remove duplicates from an array
+ var removeDuplicate = arr => {
+     var final_arr = []
+     for (let i of arr){
+         if (final_arr.includes(i)){
+             continue
+         } else {
+             final_arr.push(i)
+         }
+     }
+     return final_arr
+ }
+
+ // Rotate an array by k times
+
+ var rotateKtimes = (arr,k) => {
+     var finalArr = new Array(arr.length)
+     for (let i in arr){
+        finalIndex = (i+k) % arr.length
+        finalArr[finalIndex] = arr[i]
+     }
+     return finalArr
+ }
+
+ 
 
