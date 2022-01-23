@@ -40,6 +40,7 @@ req.onload = function(){
         }
         return null
     })
+    all_usd = all_usd.filter(ele => ele != null)
     console.log(all_usd)
 }
 
