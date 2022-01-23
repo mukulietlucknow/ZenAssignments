@@ -51,3 +51,22 @@ class Circle {
 
 }
 
+
+class Person{
+    constructor(name, age){
+        this.name = name;
+        this.age = age;
+    }
+}
+
+
+class Uber{
+    constructor(distance){
+        this.distance = distance;
+    }
+
+    getPrice(){
+        return this.distance * 4;
+    }
+}
+
